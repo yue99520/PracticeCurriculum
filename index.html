@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ernie</title>
+    <style>
+        h1{
+            text-align: center;
+            color: dimgray;
+        }
+        table{
+            margin: 0 auto;
+            border: 1px teal solid;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            border: 1px teal solid;
+        }
+        body {
+            background-color: blanchedalmond;
+        }
+        .a_type_class {
+            background-color: teal;
+            color: white;
+        }
+        .b_type_class {
+            background-color: chocolate;
+            color: white;
+        }
+        .title {
+            background-color: #FFD000;
+            color: dimgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>我的課表</h1>
+    <table>
+        <thead>
+            <tr>
+                <td class="title"></td>
+                <td class="title">一</td>
+                <td class="title">二</td>
+                <td class="title">三</td>
+                <td class="title">四</td>
+                <td class="title">五</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="title">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">2</td>
+                <td rowspan="3" class="a_type_class">圖形理論<br>主顧 303<br>林耀鈴</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">3</td>
+                <td rowspan="2" class="b_type_class">學術資訊檢索<br>計中 201<br>朱蕙文</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" class="b_type_class">影像語言與美感任垣<br>任垣443</td>
+            </tr>
+            <tr>
+                <td class="title">4</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="6"style="text-align: center">午休</td>
+            </tr>
+            <tr>
+                <td class="title">5</td>
+                <td></td>
+                <td></td>
+                <td rowspan="2" class="b_type_class">台灣與南島文化<br>思源429<br>黃國超</td>
+                <td rowspan="3" class="a_type_class">程式語言<br>主顧 316<br>簡廷軒</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">7</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">8</td>
+                <td></td>
+                <td rowspan="3" class="a_type_class">網路程式設計<br>計中 208<br>翁添雄</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="title">9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
